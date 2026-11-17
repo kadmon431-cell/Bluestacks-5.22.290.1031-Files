@@ -1,0 +1,62 @@
+﻿========== SERVICES ==========
+
+========== PROCESSES ==========
+
+
+ProcessId       : 4620
+ParentProcessId : 1148
+Name            : HD-Player.exe
+ExecutablePath  : 
+CommandLine     : 
+
+ProcessId       : 4728
+ParentProcessId : 960
+Name            : BstkSVC.exe
+ExecutablePath  : C:\Program Files\BlueStacks_nxt\BstkSVC.exe
+CommandLine     : "C:\Program Files\BlueStacks_nxt\BstkSVC.exe" -Embedding
+
+ProcessId       : 4376
+ParentProcessId : 1148
+Name            : powershell.exe
+ExecutablePath  : C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+CommandLine     : "C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe" "-Command" "if((Get-ExecutionPolicy ) -ne
+                   'AllSigned') { Set-ExecutionPolicy -Scope Process Bypass }; & 'C:\Users\Clear\Desktop\CLSRUN\BlueSta
+                  cks-Report.ps1'"
+
+
+
+
+========== DRIVERS ==========
+
+
+Name        : BlueStacksDrv_nxt
+DisplayName : BlueStacks Hypervisor_nxt
+State       : Running
+StartMode   : Auto
+PathName    : \??\C:\Program Files\BlueStacks_nxt\BstkDrv_nxt.sys
+
+
+
+
+========== SCHEDULED TASKS ==========
+
+
+TaskName : BlueStacksHelper_nxt
+TaskPath : \
+State    : Ready
+Actions  : C:\Program Files\BlueStacks_nxt\BlueStacksHelper.exe -sr
+
+
+
+
+========== STARTUP ==========
+
+
+Name     : electron.app.BlueStacks Services
+Command  : C:\Users\Clear\AppData\Local\Programs\bluestacks-services\BlueStacksServices.exe --hidden
+Location : HKU\S-1-5-21-322512429-3542291363-3106424643-1001\SOFTWARE\Microsoft\Windows\CurrentVersion\Run
+User     : HOME-PC\Clear
+
+
+
+
